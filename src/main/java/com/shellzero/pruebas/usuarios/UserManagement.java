@@ -8,7 +8,7 @@ public class UserManagement {
      * Function to filter users that can obtain a new credit card.
      * User above @param salary and with age greater than 18 can obtain a new credit card from bank
      * @param users list of user to be filter
-     * @return list with user with salary above salary threshold
+     * @return list with users with salary above salary threshold
      */
     public static List<User> getPeopleAvailableForCreditCard(List<User> users, double salary) {
         return null;
@@ -18,7 +18,7 @@ public class UserManagement {
      * Function to filter users with unique State.
      * Filter users to obtain only one user per state, if a State has
      * more than one user please take user with the greatest name (Z it is
-     * the greatest letter) and make uppercase to name
+     * the greatest letter) and make the name to uppercase
      * @param allUsers
      * @return
      */
